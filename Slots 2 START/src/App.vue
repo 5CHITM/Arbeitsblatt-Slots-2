@@ -6,7 +6,7 @@
         <img :src="item.image" width="200" alt="" />
       </template>
       <template #employees="{item}">
-        <div>
+        <div class="me-2">
           <h5>{{ item.name }}</h5>
           <img :src="item.image" width="200" alt="" />
           <p class="mt-2 fw-bold">Job role: {{ item.role }}</p>
